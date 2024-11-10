@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .App {
+    background: linear-gradient(135deg, #00b4d8, #0077b6);
+    height: 100vh;
+    color: white;
+  }
+  
+  .welcome-box {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .role-button {
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 600px) {
+    .role-button {
+      font-size: 1rem;
+      margin: 5px;
+    }
+  }
+  

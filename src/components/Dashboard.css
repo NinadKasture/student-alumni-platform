@@ -1,0 +1,122 @@
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    box-sizing: border-box;
+    width: 100vw;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(to right, #2c3e50, #1c1c1c);;
+    width:100%;
+  }
+  
+  
+  /* Header styling */
+  .header {
+    width: 100%;
+    background-color: #0d3651;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .university-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .logo-placeholder{
+    width: 50px;
+    height: 50px;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left : 20px;
+  }
+  .logo-placeholder img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+  }
+  .user-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .user-avatar img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+  }
+  
+  /* Main content styling */
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10%;
+  }
+  
+  /* Post Section */
+  .post-section {
+    flex: 3;
+    background-color: #d9f4f9;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .post-section h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Button Section */
+  .button-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .dashboard-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Robot Image Styling */
+  .robot-image {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .robot-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
